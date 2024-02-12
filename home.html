@@ -4,8 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page Layout</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        /* CSS for navigation bar */
+        *{
+            font-size: small;
+            text-decoration: none;
+        }
+
+        .navbar{
+            height: .3rem;
+            background-color: #1D4E89;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 97%;
+        }
+
+        .menu{
+            background-color: #1D4E89;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 3%;
+            height: 100%;        
+        }
+        a{
+            color: white;
+        }
+
+        .menu a{
+            margin-top: 0;
+        }
+
+        /* Main Content */
+        .main-content{
+            color: black;
+            margin-top: 3%;
+            margin-right: 3%;
+        }
+
+        /* CSS for footer */
+        .footer{
+            height: .1rem;
+            background-color: #1D4E89;
+            color: white;
+            text-align: center;
+            line-height: 5%;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 97%;
+        }
+
+        .footer p{
+            margin-top: 0;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Menu Bar-->
+    <div class="menu">
+        <a href="#">
+            <span class="material-symbols-outlined">
+                more_vert    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                home    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                view_list    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                settings    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                license    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                file_copy    
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                apartment  
+            </span>
+        </a>
+        <a href="#">
+            <span class="material-symbols-outlined">
+                email
+            </span>
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" style="padding: 20px">
+        <h1>Welcome to My Website</h1>
+        <p>This is the main content of your website.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 My WebSite. All rights reserved</p>
+    </div>
+
 </body>
 </html>
